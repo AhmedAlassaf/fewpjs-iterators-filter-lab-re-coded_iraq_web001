@@ -1,5 +1,5 @@
 // Code your solution here
-function findMatch (arr,string){
+function findMatching (arr,string){
 
   let filter = arr.filter(elem=>{
     return string.toLowerCase()===elem.toLowerCase();
